@@ -1,0 +1,90 @@
+/* Provide sufficient contrast against white background */
+a {
+  color: #0366d6;
+}
+
+code {
+  color: #E01A76;
+}
+
+.btn-primary {
+  color: #fff;
+  background-color: #1b6ec2;
+  border-color: #1861ac;
+}
+
+body {
+    background-color: black;
+    color: white;
+}
+
+#clear-button {
+    margin-bottom: 5px;
+}
+
+#clear-button, #play-button {
+    width: 100%;
+    font-weight: bold;
+    border-radius: 10px;
+}
+
+#clear-button:disabled {
+    color: palevioletred;
+}
+
+#play-button:disabled {
+    color: forestgreen;
+}
+
+#lyrics-text {
+    width: 100%;
+    height: 200px;
+    background-color: lightyellow;
+    color: darkgoldenrod;
+    border-radius: 10px;
+}
+
+#game-area {
+    margin-top: 30px;
+}
+
+#game-area button {
+    margin-right: 10px;
+    margin-bottom: 10px;
+    border-radius: 5px;
+    font-weight: bold;
+}
+
+.embedded-link {
+    padding: 0px;
+    display: contents;
+    color: green!important; 
+    font-weight: bold;
+}
+
+.embedded-link:hover {
+    cursor: pointer;
+    color: lightgreen!important;
+}
+
+li.nav-item::marker {
+    display: none;
+}
+
+p a, li a {
+    font-weight: bold;
+    color: green;
+}
+
+p a:hover, li a:hover {    
+    color: lightgreen;
+}
+
+li a {
+    font-size: large
+}
+
+.identity {
+    color: lightgreen;
+    font-weight: bold;
+}
